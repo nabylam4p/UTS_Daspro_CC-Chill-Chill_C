@@ -1,14 +1,14 @@
 # UTS_Daspro_CC-Chill-Chill_C
 ## Judul Proyek
-Trashify: Smart Trash Bank and Point Exchange System 
+**Trashify: Smart Trash Bank and Point Exchange System** 
 ### Deskripsi
 TRASHIFY adalah program sederhana simulasi bank sampah digital berbasis bahasa pemrograman Pascal yang bertujuan untuk meningkatkan kesadaran masyarakat dalam menjaga lingkungan sekitar. Program ini memudahkan pengguna dalam menyetorkan sampah dengan mendapatkan poin berdasarkan jenis dan berat sampah yang disetorkan, kemudian poin yang terkumpul dapat ditukarkan menjadi nilai uang dengan beberapa pilihan layanan e-wallet.
 ### Anggota Kelompok
 | No |      Nama Lengkap      |    NIM    | KOM | Laboratorium |
 |----|------------------------|-----------|-----|--------------|
-| 1  | Alya Fatiha Tampubolon | 261401047 |  C  |       5      |
-| 2  | Zahra Safira Wansyah   | 261401128 |  C  |       6      |
-| 3  | Nabilah Zahra Siahaan  | 261401138 |  C  |       6      |
+| 1  | Alya Fatiha Tampubolon | 261401047 |  C  |      5       |
+| 2  | Zahra Safira Wansyah   | 261401128 |  C  |      6       |
+| 3  | Nabilah Zahra Siahaan  | 261401138 |  C  |      6       |
 ### Fitur Utama Program
 1. **Menu Utama**
 
