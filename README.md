@@ -10,19 +10,19 @@ TRASHIFY adalah program sederhana simulasi bank sampah digital berbasis bahasa p
 | 2  | Zahra Safira Wansyah   | 261401128 |  C  |      6       |
 | 3  | Nabilah Zahra Siahaan  | 261401138 |  C  |      6       |
 ### Fitur Utama Program
-1. **Menu Utama**
+1.**Menu Utama**
 
 Menu utama menampilkan pilihan fitur yang tersedia dalam program Trashify yaitu:
 
-* Setor Sampah
-* Cek Saldo Poin
-* Tukar Poin Ke E-Wallet
-* Laporan Transaksi
-* Keluar
+1. Setor Sampah
+2. Cek Saldo Poin
+3. Tukar Poin Ke E-Wallet
+4. Laporan Transaksi
+5. Keluar
 
 Program menggunakan (case of) untuk menjalankan fitur sesuai pilihan pengguna dan (repeat until) agar menu terus ditampilkan sampai pengguna memilih keluar.
 
-2. **Setor Sampah**
+2.**Setor Sampah**
 
 Pengguna dapat memilih jenis sampah yang tersedia dan memasukkan berat sampah yang ingin disetorkan berdasarkan kilogram (kg). 
 Jenis sampah dan poin per kg yaitu:
@@ -34,21 +34,21 @@ Jenis sampah dan poin per kg yaitu:
 
 Program menggunakan (for) untuk menampilkan daftar jenis sampah, (case of) untuk menentukan poin berdasarkan jenis sampah yang dipilih, (if-then -else) untuk memeriksa pilihan, (while-do)  untuk memvalidasi berat sampah, dan continue untuk melanjutkan perulangan yang sedang berjalan. Poin dihitung dari berat sampah dikalikan dengan nilai poin per kilogram, lalu dibulatkan menggunakan (round) dan ditambahkan ke saldo pengguna.
 
-3. **Cek Saldo Poin**
+3.**Cek Saldo Poin**
 
 Fitur ini menampilkan ID, nama, saldo poin, dan nilai uang yang dimiliki pengguna.
 Nilai uang dihitung dengan perhitungan: Nilai Uang = Saldo Poin x Rp100
 
 Dengan ini, pengguna dapat mengetahui jumlah poin dan nilai uang yang dimiliki setelah melakukan setor sampah atau tukar poin.
 
-4. **Tukar Poin ke E-Wallet**
+4.**Tukar Poin ke E-Wallet**
 
 Pengguna dapat menukar poin menjadi uang melalui beberapa pilihan layanan e-wallet, yaitu GoPay, DANA, ShopeePay, dan OVO. Setelah itu, pengguna memasukkan nomor tujuan, serta menentukan jumlah poin yang ingin ditukar. Program menggunakan (if) untuk memeriksa apakah saldo mencukupi dan jumlah poin yang dimasukkan valid. Sistem akan melakukan pengurangan saldo awal dengan point yang ditukar, lalu menampilkan bukti dan status transaksi.
 
-5. **Laporan Transaksi**
+5.**Laporan Transaksi**
 
 Fitur ini menampilkan rangkuman aktivitas transaksi pengguna selama program berjalan. Informasi yang ditampilkan yaitu, ID pengguna, nama, total berat sampah yang disetorkan, total poin masuk, total poin yang ditukar, dan saldo poin saat ini.
 
-6. **Keluar**
+6.**Keluar**
    
 Perulangan (repeat until menu =  5) digunakan agar menu utama terus ditampilkan selama pengguna belum memilih menu keluar. Jika pengguna mengakhiri program melalui menu keluar maka program akan akan berhenti dan menampilkan pesan penutup setelah selesai menggunakan TRASHIFY
