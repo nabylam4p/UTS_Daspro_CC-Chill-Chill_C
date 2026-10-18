@@ -12,7 +12,7 @@ TRASHIFY adalah program sederhana simulasi bank sampah digital berbasis bahasa p
 ### Fitur Utama Program
 1. **Menu Utama**
 
-Menu utama menampilkan pilihan fitur yang tersedia dalam program Trashify, yaitu setor sampah, cek saldo poin, tukar poin ke e-wallet, laporan transaksi, dan keluar. Program menggunakan (case of) untuk menjalankan fitur sesuai pilihan pengguna dan repeat until agar menu terus ditampilkan sampai pengguna memilih keluar.
+Menu utama menampilkan pilihan fitur yang tersedia dalam program Trashify, yaitu setor sampah, cek saldo poin, tukar poin ke e-wallet, laporan transaksi, dan keluar. Program menggunakan (case of) untuk menjalankan fitur sesuai pilihan pengguna dan (repeat until) agar menu terus ditampilkan sampai pengguna memilih keluar.
 
 2. **Setor Sampah**
 
