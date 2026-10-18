@@ -24,7 +24,7 @@ Jenis sampah dan poin per kg yaitu:
 - Logam   (15 poin/kg)
 - Kaca    (6 poin/kg)
 
-Program menggunakan for untuk menampilkan daftar jenis sampah dan case of untuk menentukan poin berdasarkan jenis sampah yang dipilih. Percabangan (if-then -else) digunakan untuk memeriksa apakah berat sampah valid, sedangkan perulangan (while-do) digunakan untuk meminta pengguna memasukkan ulang berat sampah jika beratnya kurang dari atau sama dengan 0. Poin dihitung dari berat sampah dikalikan dengan nilai poin per kilogram, lalu dibulatkan menggunakan (round) dan ditambahkan ke saldo pengguna. 
+Program menggunakan (for) untuk menampilkan daftar jenis sampah dan case of untuk menentukan poin berdasarkan jenis sampah yang dipilih. Percabangan (if-then -else) digunakan untuk memeriksa apakah berat sampah valid, sedangkan perulangan (while-do) digunakan untuk meminta pengguna memasukkan ulang berat sampah jika beratnya kurang dari atau sama dengan 0. Poin dihitung dari berat sampah dikalikan dengan nilai poin per kilogram, lalu dibulatkan menggunakan (round) dan ditambahkan ke saldo pengguna. 
 
 3. **Cek Saldo Poin**
 
