@@ -71,8 +71,7 @@ repeat
             begin
                 writeln('Berat harus lebih dari 0 kg!');
                 write('Masukkan Ulang Berat Sampah (kg): ');
-                readln;
-                continue;
+                readln(berat);
             end;
 
             // Hitung Poin
@@ -134,7 +133,6 @@ repeat
             if (ewallet < 1) or (ewallet > 4) then
             begin
                 writeln('Pilihan tidak valid!');
-                readln;
                 continue;
             end;
 
