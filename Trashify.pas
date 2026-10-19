@@ -133,6 +133,7 @@ repeat
             if (ewallet < 1) or (ewallet > 4) then
             begin
                 writeln('Pilihan tidak valid!');
+                readln;
                 continue;
             end;
 
